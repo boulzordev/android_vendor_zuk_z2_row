@@ -547,6 +547,34 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/z2_row/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zuk/z2_row/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/zuk/z2_row/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
     vendor/zuk/z2_row/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/zuk/z2_row/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/z2_row/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -559,34 +587,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zuk/z2_row/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/zuk/z2_row/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/zuk/z2_row/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
     vendor/zuk/z2_row/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/z2_row/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zuk/z2_row/proprietary/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \

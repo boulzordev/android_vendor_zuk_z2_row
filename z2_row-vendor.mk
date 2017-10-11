@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_none.so:system/vendor/lib/libchromatix_ov8865_hfr_60_none.so \
@@ -343,6 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
@@ -715,4 +717,5 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     libqti_performance \
     ims \
-    imssettings
+    imssettings \
+    libgpustats

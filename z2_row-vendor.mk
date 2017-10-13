@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/hw/camera.msm8996.so:system/vendor/lib/hw/camera.msm8996.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
@@ -582,6 +581,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/z2_row/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/z2_row/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zuk/z2_row/proprietary/lib/hw/camera.vendor.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
     vendor/zuk/z2_row/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/zuk/z2_row/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/zuk/z2_row/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
